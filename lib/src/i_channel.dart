@@ -3,7 +3,7 @@
 import 'dart:ui' as ui;
 import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
-import 'package:shader_buffers/src/layer_buffer.dart';
+import 'package:shader_buffers_fork/src/layer_buffer.dart';
 
 /// class to define the kind of channel textures that will
 /// be used by [LayerBuffer].

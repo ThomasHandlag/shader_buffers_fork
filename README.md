@@ -1,6 +1,6 @@
-**shader_buffers** aims to simplify the use of shaders with a focus on the ShaderToy.com
+**shader_buffers_fork** aims to simplify the use of shaders with a focus on the ShaderToy.com
 
-[![Pub](https://img.shields.io/pub/v/shader_buffers.svg)](https://pub.dev/packages/shader_buffers)
+[![Pub](https://img.shields.io/pub/v/shader_buffers_fork.svg)](https://pub.dev/packages/shader_buffers_fork)
 
 - [Features](#Features)
 - [ShaderBuffers widget Usage](#ShaderBuffers-widget-Usage)
@@ -30,7 +30,7 @@ Shader examples are from [ShaderToy.com](https://shadertoy.com) and have been sl
 > [!NOTE]  
 > Using a shader output to feed itself, produces a memory leak: [memory leak issue](https://github.com/flutter/flutter/issues/138627). Please thumb it up! A temporary fix is used.
 
-![img](https://github.com/alnitak/shader_buffers/raw/main/images/shader_buffers.gif)
+![img](https://github.com/alnitak/shader_buffers_fork/raw/main/images/shader_buffers_fork.gif)
 
 
 ## ShaderBuffers widget Usage
@@ -120,7 +120,7 @@ controller
 
 #### Layering shaders
 
-<img src="https://github.com/alnitak/shader_buffers/assets/192827/4dc0f799-6109-4489-aae8-df379298c459" width="500" />
+<img src="https://github.com/alnitak/shader_buffers_fork/assets/192827/4dc0f799-6109-4489-aae8-df379298c459" width="500" />
 
 ```dart
 final mainLayer = LayerBuffer(

@@ -4,10 +4,10 @@ import 'dart:ui';
 
 import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
-import 'package:shader_buffers/src/i_channel.dart';
+import 'package:shader_buffers_fork/src/i_channel.dart';
 
-import 'package:shader_buffers/src/imouse.dart';
-import 'package:shader_buffers/src/uniforms.dart';
+import 'package:shader_buffers_fork/src/imouse.dart';
+import 'package:shader_buffers_fork/src/uniforms.dart';
 
 /// Class used to define a buffers or the main image layer.
 ///
@@ -100,7 +100,7 @@ class LayerBuffer {
     /// setup blankImage. Displayed when the layerImage is not yet available
     try {
       final assetImageByteData = await rootBundle
-          .load('packages/shader_buffers/assets/blank_16x16.bmp');
+          .load('packages/shader_buffers_fork/assets/blank_16x16.bmp');
       final codec = await ui.instantiateImageCodec(
         assetImageByteData.buffer.asUint8List(),
       );

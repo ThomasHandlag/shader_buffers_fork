@@ -1,16 +1,16 @@
 // ignore_for_file: avoid_multiple_declarations_per_line, public_member_api_docs
 
 import 'package:flutter/material.dart';
-import 'package:shader_buffers/shader_buffers.dart';
+import 'package:shader_buffers_fork/shader_buffers_fork.dart';
 
 /// Code to demostrate the use of multiple image filter fragment shaders
 /// to apply in sequence to a single image. Something like this:
-/// https://github.com/alnitak/shader_buffers?tab=readme-ov-file#layering-shaders
+/// https://github.com/alnitak/shader_buffers_fork?tab=readme-ov-file#layering-shaders
 ///
 /// Please, read the comments of fragment source code
 /// located in `shaders/filters` and the documentation
 /// for writing a fragment shader
-/// https://github.com/alnitak/shader_buffers?tab=readme-ov-file#writing-a-fragment-shader
+/// https://github.com/alnitak/shader_buffers_fork?tab=readme-ov-file#writing-a-fragment-shader
 
 void main() {
   runApp(const MainApp());

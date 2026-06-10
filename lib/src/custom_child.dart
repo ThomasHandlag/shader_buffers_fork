@@ -4,7 +4,7 @@ import 'dart:ui' as ui;
 
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:shader_buffers/src/i_channel.dart';
+import 'package:shader_buffers_fork/src/i_channel.dart';
 
 /// Highly inspired from
 /// https://github.com/jonahwilliams/flutter_shaders/blob/main/lib/src/animated_sampler.dart

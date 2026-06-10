@@ -13,7 +13,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-  shader_buffers:
+  shader_buffers_fork:
     path: ../
 
 dev_dependencies:

@@ -1,7 +1,7 @@
 // ignore_for_file: public_member_api_docs
 
 import 'package:flutter/material.dart';
-import 'package:shader_buffers/shader_buffers.dart';
+import 'package:shader_buffers_fork/shader_buffers_fork.dart';
 
 /// layers definition
 typedef Layers = ({LayerBuffer mainImage, List<LayerBuffer> buffers});

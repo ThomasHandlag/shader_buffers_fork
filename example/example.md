@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:shader_buffers/shader_buffers.dart';
+import 'package:shader_buffers_fork/shader_buffers_fork.dart';
 
 void main() {
   runApp(MainApp());

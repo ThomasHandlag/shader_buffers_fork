@@ -3,12 +3,12 @@
 import 'dart:typed_data';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
-import 'package:shader_buffers/src/custom_child.dart';
-import 'package:shader_buffers/src/custom_shader_paint.dart';
-import 'package:shader_buffers/src/i_channel.dart';
-import 'package:shader_buffers/src/imouse.dart';
-import 'package:shader_buffers/src/layer_buffer.dart';
-import 'package:shader_buffers/src/uniforms.dart';
+import 'package:shader_buffers_fork/src/custom_child.dart';
+import 'package:shader_buffers_fork/src/custom_shader_paint.dart';
+import 'package:shader_buffers_fork/src/i_channel.dart';
+import 'package:shader_buffers_fork/src/imouse.dart';
+import 'package:shader_buffers_fork/src/layer_buffer.dart';
+import 'package:shader_buffers_fork/src/uniforms.dart';
 
 /// the operation parameter to build the check
 typedef Operation = ({

@@ -2,8 +2,8 @@
 
 import 'package:flutter/rendering.dart';
 import 'package:flutter/widgets.dart';
-import 'package:shader_buffers/src/imouse.dart';
-import 'package:shader_buffers/src/layer_buffer.dart';
+import 'package:shader_buffers_fork/src/imouse.dart';
+import 'package:shader_buffers_fork/src/layer_buffer.dart';
 
 typedef ShaderBuilder = void Function(Size size);
 
