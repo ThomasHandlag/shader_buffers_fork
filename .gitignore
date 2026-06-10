@@ -30,4 +30,3 @@ migrate_working_dir/
 build/
 
 images/*
-!images/shader_buffers_fork.gif
